@@ -1,0 +1,87 @@
+body {
+    background-color: #FDFFEF;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #9D653F;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    color: #FDFFEF;
+    font-size: 45px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+header h5 {
+    color: #FDFFEF;
+    font-size: 18px;
+    margin: 0;
+    margin-top: 10px;
+    
+}
+
+.menu-navegacao {
+    background-color: #B26A3F;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.menu-navegacao a {
+    color: #FDFFEF;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+.secao-boas-vindas {
+    min-height: calc(100vh - 140px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.imagem-home {
+    width: 650px;  
+    height: 420px;
+    object-fit: cover; 
+    border-radius: 20px;
+}
+
+.texto-boas-vindas {
+    max-width: 600px;
+}
+
+.texto-boas-vindas h2 {
+    font-size: 48px;
+    color: #8B5E3C; 
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.texto-boas-vindas p {
+    font-size: 18px;
+    color: #6B7280; 
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.ver-cardapio {
+    background-color: #EB983F; 
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.ver-cardapio:hover {
+    background-color: #d97706;
+}
