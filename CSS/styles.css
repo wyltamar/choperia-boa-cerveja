@@ -5,8 +5,12 @@ body {
 
 header {
     background-color: #9D653F;
-    padding: 25px;
+    padding: 8px;
     text-align: center;
+}
+
+.header-container {
+    width: 100vw;
 }
 
 header h1 {
@@ -19,8 +23,7 @@ header h1 {
 header h5 {
     color: #FDFFEF;
     font-size: 18px;
-    margin: 0;
-    margin-top: 10px;
+    margin-top: 5px;
     
 }
 
@@ -28,6 +31,7 @@ header h5 {
     background-color: #B26A3F;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 15px 0;
 }
 
@@ -36,6 +40,9 @@ header h5 {
     text-decoration: none;
     font-size: 18px;
     margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .secao-boas-vindas {
@@ -44,6 +51,7 @@ header h5 {
     justify-content: space-between;
     align-items: center;
     padding: 50px;
+    margin-top: 30px;
 }
 
 .imagem-home {
@@ -84,4 +92,28 @@ header h5 {
 
 .ver-cardapio:hover {
     background-color: #d97706;
+}
+
+.display-grid{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    padding: 10px 50px 50px;
+    margin: 20px;
+    gap: 20px;
+}
+
+.cardapio{
+    text-align: center;
+    padding-top: 20px;
+    color:#8B5E3C;
+}
+
+.grid-template{
+    background-color: #EB983F;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
