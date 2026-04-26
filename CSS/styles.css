@@ -1,7 +1,3 @@
-body {
-    background-color: #FDFFEF;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
 header {
     background-color: #9D653F;
@@ -32,26 +28,27 @@ header h5 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px 0;
+    padding: 10px ;
+    gap: 50px;
 }
 
 .menu-navegacao a {
     color: #FDFFEF;
     text-decoration: none;
     font-size: 18px;
-    margin: 0 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin:  15px;
+    font-weight: bold;
+   
 }
 
 .secao-boas-vindas {
+    
+    background-color:#FAFAD2;
     min-height: calc(100vh - 140px);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px;
-    margin-top: 30px;
 }
 
 .imagem-home {
@@ -66,7 +63,7 @@ header h5 {
 }
 
 .texto-boas-vindas h2 {
-    font-size: 48px;
+    font-size: 40px;
     color: #8B5E3C; 
     margin-bottom: 15px;
     font-weight: 700;
@@ -79,6 +76,9 @@ header h5 {
     margin-bottom: 25px;
 }
 
+.secao-cardapio{
+    margin-bottom: 0;
+}
 .ver-cardapio {
     background-color: #EB983F; 
     color: white;
@@ -96,24 +96,121 @@ header h5 {
 
 .display-grid{
     display: grid;
-    grid-template-columns: 350px 350px 350px;
+    grid-template-columns: 390px 390px 390px;
+
     padding: 10px 50px 50px;
-    margin: 20px;
+    
     gap: 20px;
 }
 
-.cardapio{
+#cardapio{
     text-align: center;
     padding-top: 20px;
-    color:#8B5E3C;
+    color:#000000
 }
 
 .grid-template{
-    background-color: #EB983F;
+    background-color:#FAFAD2;
     border-radius: 5px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.secao-sobre-nos{
+    background-color:#FAFAD2;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+    padding: 40px;
+
+    text-align: left;
+    line-height: 22px;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 0;
+    
+}
+
+.secao-sobre-nos img{
+    border-radius: 5px;
+}
+
+.secao-sobre-nos p{
+    padding-top: 20px;
+}
+
+.lista{
+    padding: 30px ;
+    margin-top: 20px;
+    background-color: #ffffff;
+    width: 400px;
+
+    
+}
+
+#sobre-nos{
+    background-color:#FAFAD2;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 10px;
+
+}
+
+.secao-contato{
+    padding: 30px 0;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.contato-mensagens{
+    background-color:#FAFAD2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+    text-align: left;
+    padding: 40px;
+    margin-bottom: 0;
+}
+
+footer{
+    background-color: #9D653F;
+    padding: 20px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+
+}
+
+.titulo-footer{
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap:5px;
+}
+
+.formulario input{
+    padding: 4px;
+    border: solid 1px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.formulario textarea{
+    padding: 30px 0;
+    margin-top: 0;
 }
