@@ -205,12 +205,16 @@ footer{
 
 .formulario input{
     padding: 4px;
-    border: solid 1px;
+    border: solid 1px #9D653F;
     border-radius: 3px;
     outline: none;
 }
 
 .formulario textarea{
-    padding: 30px 0;
     margin-top: 0;
+    height: 12vh;
+    width: auto;
+    border: 1px solid #9D653F;
+    border-radius: 3px;;
+    outline: none;
 }
